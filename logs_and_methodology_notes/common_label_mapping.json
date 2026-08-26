@@ -1,0 +1,17 @@
+{
+  "label2id": {
+    "Benign": 0,
+    "Recon": 1,
+    "DoS": 2
+  },
+  "LABEL_ORDER": [
+    "Benign",
+    "Recon",
+    "DoS"
+  ],
+  "COMMON_CLASSES": [
+    "Benign",
+    "Recon",
+    "DoS"
+  ]
+}

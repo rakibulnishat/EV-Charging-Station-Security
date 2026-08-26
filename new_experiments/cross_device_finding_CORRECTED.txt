@@ -1,0 +1,8 @@
+Cross-device generalization - corrected findings
+
+STRUCTURAL FACT: EVSE-B has 0 Benign samples in Network modality.
+B_to_A transfer cannot predict Benign at all (never seen in training) -
+this is a class-coverage gap, not purely a distribution-shift failure.
+
+A_to_B mean=0.8665, std=0.1633 (seed-sensitive) - see per-class breakdown
+in this cell's output for which class drives the instability.

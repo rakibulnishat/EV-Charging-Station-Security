@@ -1,0 +1,4 @@
+CORRECTION to Cell 40's interpretation:
+A_to_B vs B_to_A: t-test p=0.046 vs Mann-Whitney p=0.461 - disagreement not
+addressed in original text. Corrected reading: NOT confidently distinguishable
+from each other; both vs. pooled baseline is the more defensible comparison.

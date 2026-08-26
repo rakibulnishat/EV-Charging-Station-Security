@@ -1,0 +1,6 @@
+Intermediate fusion vs Network anchor: t-test/Wilcoxon disagreement diagnostic
+t-test: t=-2.9132, p=0.017222, Cohen's dz=-0.921
+Wilcoxon: W=15.0000, p=0.232422
+Distinct value levels in intermediate fusion scores: 2 across 10 seeds
+Direction: 5/10 seeds below anchor, 5/10 above, 0/10 tied
+Verdict: t-test result favored due to tie-heavy Wilcoxon degradation; conclusion is a small (0.07pp) but consistent negative shift, statistically real.

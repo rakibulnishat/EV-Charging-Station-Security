@@ -1,0 +1,6 @@
+CORRECTION to intermediate_fusion_disagreement_diagnostic.txt
+Original claim of 'directionally consistent negative shift' was WRONG.
+Actual pattern: bimodal, 5/10 seeds positive (mean +0.000021), 5/10 seeds negative (mean -0.001420).
+t-test significance driven by magnitude asymmetry between the two modes,
+not by uniform directional consistency across seeds.
+Late fusion consistency check: 10/10 seeds negative.

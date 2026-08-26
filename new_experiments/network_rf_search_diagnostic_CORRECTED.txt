@@ -1,0 +1,6 @@
+CORRECTED diagnostic: Network RF searched-config underperformance
+
+5/6 seeds: searched config essentially matches fixed config (>=0.9999)
+1/6 seeds (seed=123): clear failure, concentrated in 'Benign' class
+Original Cell 31 conclusion ('generally less stable') was an overgeneralization
+from one outlier seed - corrected here to state the precise, limited claim.

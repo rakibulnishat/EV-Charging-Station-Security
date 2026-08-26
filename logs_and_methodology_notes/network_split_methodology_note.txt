@@ -1,0 +1,4 @@
+Network modality split methodology:
+- Recon and DoS classes: session/file-level GroupShuffleSplit (train/val/test never share a source capture file)
+- Benign class: row-level stratified split, exception to the group rule, justified by only 2 available source files (['EVSE-A-Charging-Benign.csv', 'EVSE-A-idle-benign.csv']) making file-level grouping unable to guarantee representation across all 3 splits.
+- Univariate duration-threshold sanity check macro-F1 (Recon vs DoS only): 0.9872

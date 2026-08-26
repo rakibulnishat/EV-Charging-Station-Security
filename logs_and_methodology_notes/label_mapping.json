@@ -1,0 +1,23 @@
+{
+  "label2id": {
+    "Benign": 0,
+    "Recon": 1,
+    "DoS": 2,
+    "Backdoor": 3,
+    "Cryptojacking": 4
+  },
+  "id2label": {
+    "0": "Benign",
+    "1": "Recon",
+    "2": "DoS",
+    "3": "Backdoor",
+    "4": "Cryptojacking"
+  },
+  "LABEL_ORDER": [
+    "Benign",
+    "Recon",
+    "DoS",
+    "Backdoor",
+    "Cryptojacking"
+  ]
+}

@@ -1,0 +1,50 @@
+\begin{table}[htbp]
+\caption{Single-Modality Baselines, 10-Seed Mean $\pm$ Std}
+\label{tab:j1}
+\centering
+\footnotesize
+\begin{tabular}{llll}
+\hline
+\textbf{Modality} & \textbf{Model} & \textbf{Mean_MacroF1} & \textbf{Std} \\
+\hline
+Host & RandomForest & 0.987455 & 0.000612 \\
+Host & XGBoost & 0.986385 & 0.001690 \\
+Network & RandomForest & 0.999972 & 0.000012 \\
+Network & XGBoost & 0.999983 & 0.000000 \\
+Power & RandomForest & 0.715150 & 0.000822 \\
+Power & XGBoost & 0.715711 & 0.000972 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Part 1 (3-Class) Fusion vs. Network Anchor, 10-Seed}
+\label{tab:j2}
+\centering
+\footnotesize
+\begin{tabular}{llllll}
+\hline
+\textbf{Config} & \textbf{Mean} & \textbf{Std} & \textbf{MeanDiff} & \textbf{t_p} & \textbf{Wilcoxon_p} \\
+\hline
+Network (anchor) & 0.999972 & 0.000011 & 0.000000 & --- & --- \\
+Early Fusion & 1.000000 & 0.000000 & 0.000028 & 0.000049 & 0.001953 \\
+Late Fusion & 0.998314 & 0.000000 & -0.001658 & 0.000000 & 0.001953 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Part 2 (4-Class) Fusion vs. Host Anchor, 10-Seed}
+\label{tab:j3}
+\centering
+\footnotesize
+\begin{tabular}{llllll}
+\hline
+\textbf{Config} & \textbf{Mean} & \textbf{Std} & \textbf{MeanDiff} & \textbf{t_p} & \textbf{Wilcoxon_p} \\
+\hline
+Host-only (anchor) & 0.991015 & 0.000806 & 0.000000 & --- & --- \\
+Early Fusion & 0.990686 & 0.000658 & -0.000329 & 0.443332 & 0.414216 \\
+Late Fusion & 0.989853 & 0.002638 & -0.001163 & 0.235425 & 0.695312 \\
+\hline
+\end{tabular}
+\end{table}

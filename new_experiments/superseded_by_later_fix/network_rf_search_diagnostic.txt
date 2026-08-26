@@ -1,0 +1,8 @@
+Network RF hyperparameter search diagnostic
+
+Validation score spread across 6 configs: 0.000113 (near-tied, not distinguishing)
+Searched config (100 trees, depth=10) test std: 0.013757
+Fixed config (200 trees, depth=20) test std: 0.000012
+6-seed re-verification: mean=0.995998, std=0.008878
+Conclusion: fixed config is genuinely more stable; retained as the project's
+reported result. Search's underperformance on this one case disclosed honestly.

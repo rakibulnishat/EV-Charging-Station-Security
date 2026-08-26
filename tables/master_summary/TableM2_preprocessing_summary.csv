@@ -1,0 +1,5 @@
+Modality,Issue,Removed,Reason
+Power,Exact-duplicate rows,1100,Data-collection artifact; would double-count in training
+Host,Corrupted/column-shifted rows,6,Kernel-event string leaked into wrong column
+Host,Dead/dropout rows (State=='0'),2302,"HPC-counter analysis proved genuine measurement gaps, not mislabeled Benign"
+Network,Within-session split leakage,0,"Fixed via session/file-grouped split, not row removal (Benign: documented exception)"

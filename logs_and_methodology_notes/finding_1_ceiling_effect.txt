@@ -1,0 +1,7 @@
+FINDING 1: Ceiling effect on the 3-class common subtask
+Best single modality: Network + RandomForest, macro-F1 = 1.0000 (3 seeds, std=0.0000)
+Early fusion: macro-F1 = 1.0000 (3 seeds, std=0.0000) -- ties the anchor exactly
+Late fusion:  macro-F1 = 0.9983 (3 seeds, std=0.0000) -- underperforms by 0.0017, consistently
+Statistical test: degenerate (zero seed-to-seed variance in both configs)
+Conclusion: task saturation eliminates any measurable fusion benefit; fusion can
+actively hurt under naive late-fusion averaging when one modality is much weaker.

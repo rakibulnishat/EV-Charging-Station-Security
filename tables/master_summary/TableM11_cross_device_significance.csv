@@ -1,0 +1,5 @@
+comparison,test,statistic,p_value
+A_to_B vs B_to_A,Welch t-test,2.311803243015612,0.0460842129674538
+A_to_B vs B_to_A,Mann-Whitney U,40.0,0.4608071596234866
+A_to_B vs Pooled,Welch t-test,-34.65240824437452,4.616197434871048e-13
+B_to_A vs Pooled,Welch t-test,-3.965343300440966,0.0032518846733025

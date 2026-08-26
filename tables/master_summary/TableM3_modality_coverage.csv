@@ -1,0 +1,6 @@
+,Power,Host,Network
+Benign,14300,2302,82
+Recon,32717,1145,172867
+DoS,34496,926,101570
+Backdoor,21090,0,0
+Cryptojacking,11595,1793,0

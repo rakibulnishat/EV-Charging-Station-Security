@@ -1,0 +1,19 @@
+modality,model,seed,test_macro_f1,config,source
+power,RandomForest,42,0.7169456935209046,"{'n_estimators': 200, 'max_depth': 20}",searched
+power,RandomForest,123,0.7155383101857883,"{'n_estimators': 200, 'max_depth': 20}",searched
+power,RandomForest,2026,0.7141794916384416,"{'n_estimators': 200, 'max_depth': 20}",searched
+power,XGBoost,42,0.7148131274329098,"{'n_estimators': 200, 'max_depth': 8, 'learning_rate': np.float64(0.1), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+power,XGBoost,123,0.7156821090789253,"{'n_estimators': 200, 'max_depth': 8, 'learning_rate': np.float64(0.1), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+power,XGBoost,2026,0.7151068263601764,"{'n_estimators': 200, 'max_depth': 8, 'learning_rate': np.float64(0.1), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+host,RandomForest,42,0.9871651376540517,"{'n_estimators': 100, 'max_depth': 10}",searched
+host,RandomForest,123,0.9886163982675784,"{'n_estimators': 100, 'max_depth': 10}",searched
+host,RandomForest,2026,0.9871651376540517,"{'n_estimators': 100, 'max_depth': 10}",searched
+host,XGBoost,42,0.9871816937913948,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': np.float64(0.05), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+host,XGBoost,123,0.9857204380460195,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': np.float64(0.05), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+host,XGBoost,2026,0.9857204380460195,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': np.float64(0.05), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+network,RandomForest,42,0.9999826752735039,"{'n_estimators': 100, 'max_depth': 10}",searched
+network,RandomForest,123,0.9761466024021067,"{'n_estimators': 100, 'max_depth': 10}",searched
+network,RandomForest,2026,0.9999653513889704,"{'n_estimators': 100, 'max_depth': 10}",searched
+network,XGBoost,42,0.9999826752735039,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': np.float64(0.05), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+network,XGBoost,123,0.9999826752735039,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': np.float64(0.05), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched
+network,XGBoost,2026,0.9999826752735039,"{'n_estimators': 200, 'max_depth': 4, 'learning_rate': np.float64(0.05), 'subsample': 0.8, 'colsample_bytree': 0.8}",searched

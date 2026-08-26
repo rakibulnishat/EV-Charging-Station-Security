@@ -1,0 +1,186 @@
+{
+  "generated_for": "i-COSTE 2026 submission",
+  "n_papers": 20,
+  "papers": [
+    {
+      "id": 1,
+      "authors": "Buedi, E.D., Ghorbani, A.A., Dadkhah, S., Ferreira, R.L.",
+      "year": 2024,
+      "title": "Enhancing EV Charging Station Security Using a Multi-Dimensional Dataset: CICEVSE2024",
+      "venue": "IFIP Annual Conf. on Data and Applications Security and Privacy (DBSec 2024), Springer, pp. 171-190",
+      "note": "CICEVSE2024 dataset origin paper",
+      "source_checked": "ACM DL bibliography, arXiv cross-refs"
+    },
+    {
+      "id": 2,
+      "authors": "Rahman, M.M., Chayan, M.M.H., Mehrin, K., Sultana, A., Hamed, M.M.",
+      "year": 2024,
+      "title": "Explainable Deep Learning for Cyber Attack Detection in Electric Vehicle Charging Stations",
+      "venue": "Proc. 11th Intl. Conf. on Networking, Systems, and Security (NSysS '24), ACM, pp. 1-7",
+      "note": "",
+      "source_checked": "ACM DL (doi:10.1145/3704522.3704534)"
+    },
+    {
+      "id": 3,
+      "authors": "Makhmudov, F., Kilichev, D., Giyosov, U., Akhmedov, F.",
+      "year": 2025,
+      "title": "Online Machine Learning for Intrusion Detection in Electric Vehicle Charging Systems",
+      "venue": "Mathematics, 13(5), 712",
+      "note": "",
+      "source_checked": "MDPI direct + IDEAS/RePEc"
+    },
+    {
+      "id": 4,
+      "authors": "Almadhor, A., Alsubai, S., Bouazzi, I., Karovic, V., Davidekova, M., Al Hejaili, A., Sampedro, G.A.",
+      "year": 2025,
+      "title": "Transfer learning for securing electric vehicle charging infrastructure from cyber-physical attacks",
+      "venue": "Scientific Reports, 15, 9331",
+      "note": "",
+      "source_checked": "PubMed, PMC, Nature.com direct"
+    },
+    {
+      "id": 5,
+      "authors": "Sharma, A., Rani, S., Shabaz, M.",
+      "year": 2025,
+      "title": "Artificial intelligence-augmented smart grid architecture for cyber intrusion detection and mitigation in electric vehicle charging infrastructure",
+      "venue": "Scientific Reports, 15, 21653",
+      "note": "",
+      "source_checked": "PubMed cross-reference"
+    },
+    {
+      "id": 6,
+      "authors": "ElKashlan, M., Elsayed, M.S., Jurcut, A.D., Azer, M.",
+      "year": 2023,
+      "title": "A Machine Learning-Based Intrusion Detection System for IoT Electric Vehicle Charging Stations (EVCSs)",
+      "venue": "Electronics, 12(4), 1044",
+      "note": "",
+      "source_checked": "MDPI review-report page"
+    },
+    {
+      "id": 7,
+      "authors": "ElKashlan, M., Aslan, H., Elsayed, M.S., Jurcut, A.D., Azer, M.A.",
+      "year": 2023,
+      "title": "Intrusion Detection for Electric Vehicle Charging Systems (EVCS)",
+      "venue": "Algorithms, 16(2), 75",
+      "note": "",
+      "source_checked": "cross-referenced in 3 independent bibliographies"
+    },
+    {
+      "id": 8,
+      "authors": "Kern, D., Krauss, C., Hollick, M.",
+      "year": 2023,
+      "title": "Detection of Anomalies in Electric Vehicle Charging Sessions",
+      "venue": "Proc. 39th Annual Computer Security Applications Conf. (ACSAC '23), ACM, pp. 298-309",
+      "note": "",
+      "source_checked": "ACM DL (doi:10.1145/3627106.3627127)"
+    },
+    {
+      "id": 9,
+      "authors": "Li, Y., Chen, G., Dong, Z.",
+      "year": 2025,
+      "title": "Multi-view graph contrastive representative learning for intrusion detection in EV charging station",
+      "venue": "Applied Energy, 385, 125439",
+      "note": "",
+      "source_checked": "cross-referenced in 2 independent bibliographies"
+    },
+    {
+      "id": 10,
+      "authors": "Dehrouyeh, F., Yang, L., Badrkhani Ajaei, F., Shami, A.",
+      "year": 2024,
+      "title": "On TinyML and Cybersecurity: Electric Vehicle Charging Infrastructure Use Case",
+      "venue": "IEEE Access, 12, 108703-108730",
+      "note": "",
+      "source_checked": "arXiv:2404.16894 (author version)"
+    },
+    {
+      "id": 11,
+      "authors": "Jahangir, H., Lakshminarayana, S., Poor, H.V.",
+      "year": 2024,
+      "title": "Charge Manipulation Attacks Against Smart Electric Vehicle Charging Stations and Deep Learning-Based Detection Mechanisms",
+      "venue": "IEEE Transactions on Smart Grid, 15(5), 5182-5194",
+      "note": "",
+      "source_checked": "cross-referenced in 2 independent bibliographies"
+    },
+    {
+      "id": 12,
+      "authors": "Terruggia, R., Maldarella, A., Dondossola, G., Webber, G.",
+      "year": 2025,
+      "title": "Enhancing the Detection of Cyber-Attacks to EV Charging Infrastructures through AI Technologies",
+      "venue": "Electronics, 14(21), 4321",
+      "note": "",
+      "source_checked": "cross-referenced in 2 independent bibliographies"
+    },
+    {
+      "id": 13,
+      "authors": "Sarieddine, K., Sayed, M.A., Torabi, S., Atallah, R., Assi, C.",
+      "year": 2024,
+      "title": "Edge-based detection and localization of adversarial oscillatory load attacks orchestrated by compromised EV charging stations",
+      "venue": "International Journal of Electrical Power & Energy Systems, 156, 109735",
+      "note": "",
+      "source_checked": "cross-referenced in 2 independent bibliographies"
+    },
+    {
+      "id": 14,
+      "authors": "Kilichev, D., Turimov, D., Kim, W.",
+      "year": 2024,
+      "title": "Next-Generation Intrusion Detection for IoT EVCS: Integrating CNN, LSTM, and GRU Models",
+      "venue": "Mathematics, 12(4), 571",
+      "note": "",
+      "source_checked": "cross-referenced via IDEAS/RePEc citation trail"
+    },
+    {
+      "id": 15,
+      "authors": "Nassar, A.A., Morsi, W.G.",
+      "year": 2024,
+      "title": "Early Detection of Cyber-Physical Attacks on Electric Vehicles Fast Charging Stations Using Wavelets and Deep Learning",
+      "venue": "IEEE Transactions on Industrial Cyber-Physical Systems",
+      "note": "",
+      "source_checked": "cross-referenced in Nature.com Sci Rep bibliography"
+    },
+    {
+      "id": 16,
+      "authors": "Jacob, R.A., Uddin, M.J., Wang, J., Coskunuzer, B., Zhang, J.",
+      "year": 2025,
+      "title": "Cyber Attack Detection in Electric Vehicle Charging Stations Using Topological Data Aided Learning",
+      "venue": "2025 IEEE Power & Energy Society General Meeting (PESGM), pp. 1-5",
+      "note": "",
+      "source_checked": "arXiv:2605.24190 survey bibliography"
+    },
+    {
+      "id": 17,
+      "authors": "Kabir, M.E., Ghafouri, M., Moussa, B., Assi, C.",
+      "year": 2025,
+      "title": "A Novel OCPP-Centric Hybrid Testbed and Dataset for EV Charging Infrastructure Security Threats Feasibility Testing",
+      "venue": "2025 International Conf. on Meta-Networking (MEET)",
+      "note": "",
+      "source_checked": "arXiv:2605.24190 survey bibliography"
+    },
+    {
+      "id": 18,
+      "authors": "Kumar, A.G., Amandeep, Dahiya, S.",
+      "year": 2025,
+      "title": "Machine Learning for Advancing Electric Vehicles Security Leveraging CICEVSE2024",
+      "venue": "2025 International Russian Smart Industry Conference (SmartIndustryCon), pp. 240-245",
+      "note": "",
+      "source_checked": "arXiv:2605.24190 survey bibliography"
+    },
+    {
+      "id": 19,
+      "authors": "Chowdhury, A., Shafin, S.S., Masum, S., Kamruzzaman, J., Shi, D.",
+      "year": 2025,
+      "title": "Secure Electric Vehicle Charging Infrastructure in Smart Cities: A Blockchain-Based Smart Contract Approach",
+      "venue": "Smart Cities, 8(1), 33",
+      "note": "",
+      "source_checked": "arXiv:2506.06730 bibliography"
+    },
+    {
+      "id": 20,
+      "authors": "Anli, Y.A., Ciplak, Z., Sakaliuzun, M., Izgu, S.Z., Yildiz, K.",
+      "year": 2024,
+      "title": "DDoS detection in electric vehicle charging stations: A deep learning perspective via CICEV2023 dataset",
+      "venue": "Internet of Things, 28, 101343",
+      "note": "Author spelling independently confirmed across 6 sources including ScienceDirect byline",
+      "source_checked": "ScienceDirect direct, PubMed, PMC, Scilit, ACM Computing Surveys citation, CoLab/RIS export"
+    }
+  ]
+}

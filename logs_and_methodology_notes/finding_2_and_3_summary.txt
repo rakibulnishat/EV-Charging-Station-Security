@@ -1,0 +1,18 @@
+FINDING 2 (CORRECTED): Power+Host fusion on 4-class shared subset
+NOTE: An earlier version of this finding included 'time'/'msec'/'unit' columns in
+Host's feature set by mistake (regression introduced when rebuilding splits). Confirmed
+via group-by-class analysis that time ranges overlap heavily for DoS/Recon, and via
+direct ablation that removing these columns changes Host-alone macro-F1 by only -0.0016.
+Corrected results below use the clean 903-feature set throughout.
+
+Host-only (corrected): mean=0.9909
+Early fusion (corrected): mean=0.9915, paired t-test p=0.6667 (dz=0.29)
+Late fusion (corrected): mean=0.9895, paired t-test p=0.5782 (dz=-0.38)
+
+CONCLUSION: Under the corrected feature set, early fusion nominally edges above Host-only
+and late fusion nominally falls below, but NEITHER difference is statistically
+distinguishable from zero at n=3 seeds. The honest conclusion is that fusion and
+single-modality Host are indistinguishable here, not that either wins.
+
+FINDING 3: Backdoor (Power-exclusive class), F1=0.7163, unaffected by this correction
+(Power's feature set was never affected by the time/msec/unit issue).

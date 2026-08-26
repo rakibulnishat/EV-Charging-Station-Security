@@ -1,0 +1,17 @@
+Host modality cleaning log
+Raw rows: 8474
+Dropped corrupted/column-shifted rows: 6
+Dropped dead/dropout rows (State=='0', ~99.9% zero HPC counters): 2302
+Dropped junk Unnamed columns: 4
+Dropped unresolvable Attack labels: 0
+Final clean rows: 6166
+Final columns: 912
+
+Confirmed finding: Backdoor attack is present in Power modality (21,137 rows) but structurally absent from Host modality in this public release.
+
+Final class distribution:
+AttackGroup
+Benign           2302
+Cryptojacking    1793
+Recon            1145
+DoS               926
