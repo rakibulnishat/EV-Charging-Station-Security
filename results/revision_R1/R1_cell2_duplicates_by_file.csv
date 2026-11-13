@@ -1,0 +1,12 @@
+file,rows,dup_rows
+EVSE-A-Charging-Benign.csv,4,1
+EVSE-A-charging-Aggressive-scan.csv,999,686
+EVSE-A-charging-os-fingerprinting.csv,476,325
+EVSE-A-charging-push-ack-flood.csv,6553,0
+EVSE-A-charging-syn-flood.csv,6555,0
+EVSE-A-idle-benign.csv,9,0
+EVSE-A-idle-portscan.csv,497,384
+EVSE-B-MaliciousEV-syn-stealth-scan.csv,22800,22790
+EVSE-B-charging-os-fingerprinting.csv,6797,6549
+EVSE-B-idle-icmp-flood.csv,3,3
+EVSE-B-idle-os-fingerprinting.csv,4566,4229

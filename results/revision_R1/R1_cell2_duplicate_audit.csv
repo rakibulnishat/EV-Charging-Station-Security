@@ -1,0 +1,4 @@
+class,test_rows,dup_in_train,dup_share
+Benign,13,1,0.0769
+DoS,13111,3,0.0002
+Recon,36135,34963,0.9676
